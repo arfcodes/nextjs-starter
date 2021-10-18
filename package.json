@@ -1,0 +1,47 @@
+{
+  "name": "@rfcodes/nextjs-starter",
+  "description": "Starter for build website with NextJS",
+  "private": true,
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": {
+    "name": "M Arif Mahthunisnaini",
+    "url": "http://iznyn.github.io/"
+  },
+  "keywords": [
+    "gruntjs",
+    "vanillajs",
+    "sass",
+    "pug",
+    "starter"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arfcodes/nextjs-starter"
+  },
+  "scripts": {
+    "commit": "git-cz"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ],
+    "rules": {
+      "body-max-line-length": [
+        2,
+        "always",
+        200
+      ]
+    }
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^13.2.1",
+    "@commitlint/config-conventional": "^13.2.0",
+    "cz-conventional-changelog": "^3.3.0"
+  }
+}

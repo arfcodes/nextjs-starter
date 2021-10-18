@@ -1,0 +1,14 @@
+/**
+ * includes/Layout/blank.js
+ */
+import PropTypes from 'prop-types';
+
+import LayoutMaster from './Head';
+
+const LayoutBlank = ({ children }) => <LayoutMaster>{children}</LayoutMaster>;
+
+LayoutBlank.propTypes = {
+  children: PropTypes.node,
+};
+
+export default LayoutBlank;

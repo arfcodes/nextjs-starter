@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": false,
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": ["components/*"],
+      "@includes/*": ["includes/*"],
+      "@lib/*": ["lib/*"],
+      "@pages/*": ["pages/*"],
+      "@styles/*": ["styles/*"],
+      "@services/*": ["services/*"],
+      "@helpers/*": ["helpers/*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}
